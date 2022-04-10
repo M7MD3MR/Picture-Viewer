@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.btnSelectPicture = New System.Windows.Forms.Button()
         Me.ofPictureFileDialog = New System.Windows.Forms.OpenFileDialog()
         Me.pictureBoxViewer = New System.Windows.Forms.PictureBox()
@@ -60,6 +61,7 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(731, 559)
         Me.Controls.Add(Me.pictureBoxViewer)
         Me.Controls.Add(Me.btnSelectPicture)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
         Me.Text = "Form1"
         CType(Me.pictureBoxViewer, System.ComponentModel.ISupportInitialize).EndInit()

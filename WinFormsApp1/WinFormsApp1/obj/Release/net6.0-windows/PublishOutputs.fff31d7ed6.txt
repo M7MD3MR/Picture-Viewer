@@ -1,0 +1,5 @@
+C:\Users\alaid\Documents\GitHub\Picture-Viewer\WinFormsApp1.exe
+C:\Users\alaid\Documents\GitHub\Picture-Viewer\WinFormsApp1.dll
+C:\Users\alaid\Documents\GitHub\Picture-Viewer\WinFormsApp1.deps.json
+C:\Users\alaid\Documents\GitHub\Picture-Viewer\WinFormsApp1.runtimeconfig.json
+C:\Users\alaid\Documents\GitHub\Picture-Viewer\WinFormsApp1.pdb
